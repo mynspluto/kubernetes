@@ -2,4 +2,10 @@
 
 \_output 폴더에 결과물 생성
 
+- make
+  인자 없이
+- make PRINT_HELP=y
+  인자 포함, PRINT_HELP와 같이 인자로 받을 값은 ?=로 선언
+  =로 선언하면 사용자의 입력이 덮어쓰기되어 ?=로 선언
+
 ## Makefile 파일 내용
