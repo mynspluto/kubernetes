@@ -12,8 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Makefile 디버깅 플래그 변수 정의(기본값 없음)
 DBG_MAKEFILE ?=
+
+# 디버깅 플래그가 1이면 디버깅 모드 활성화
 ifeq ($(DBG_MAKEFILE),1)
+		#
     $(warning ***** starting Makefile for goal(s) "$(MAKECMDGOALS)")
     $(warning ***** $(shell date))
 else
