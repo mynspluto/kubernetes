@@ -13,10 +13,10 @@ Type=Application
 Name=GoLand
 Exec=/home/mynspluto/GoLand-2025.1.2/bin/goland.sh
 Icon=/home/mynspluto/GoLand-2025.1.2/bin/goland.png
+StartupWMClass=jetbrains-goland
 Comment=JetBrains Go IDE
 Categories=Development;IDE;
 Terminal=false
-
 ```
 
 sudo chmod +x ~/.local/share/applications/goland.desktop
