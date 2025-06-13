@@ -43,8 +43,8 @@ endif
 SHELL := /usr/bin/env bash -o errexit -o pipefail -o nounset
 # 쉘을 bash로 설정, 에러 시 중단, 파이프 실패 시 중단, 미정의 변수 사용 시 에러
 
+#bash 쉘의 공식 특별 환경변수 bash 메뉴얼에 정의됨
 BASH_ENV := ./hack/lib/logging.sh
-# Bash 환경 설정 파일 지정 (로깅 관련)
 
 # Define optional user-input variables so `make --warn-undefined-variables` works.
 # 사용자 입력 변수들을 선택적으로 정의 (미정의 변수 경고 방지)
